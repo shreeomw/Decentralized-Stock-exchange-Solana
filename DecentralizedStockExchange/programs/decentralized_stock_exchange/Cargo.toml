@@ -1,0 +1,20 @@
+[package]
+name = "decentralized_exchange"
+authors = ["Mateo Lafalce <mateolafalce@protonmail.com>"]
+version = "1.0.1"
+description = "A decentralized stock market"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "decentralized_exchange"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
