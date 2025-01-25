@@ -2,13 +2,15 @@
 seeds = false
 skip-lint = false
 [programs.devnet]
-decentralized_exchange = "2A65abYAkY9pBw6rAZyu5q4uwLdjyjd66WWwazewHPmv"
+decentralized_exchange = "FXGz1xS6wL6uPXHwzSf6fS95gac9zzsYjsAnRYmZdRxn"
+
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "devnet"
-wallet = "/home/mateo/.config/solana/id.json"
+wallet = "/home/shree_kali/.config/solana/id.json"
 
-[scripts]
+[toolchain]
+anchor_version = "0.29.0"
